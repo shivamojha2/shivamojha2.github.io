@@ -296,6 +296,9 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
     left: 0;
     right: 0;
     background: var(--bg);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    isolation: isolate;
     border-bottom: 1px solid var(--border);
     flex-direction: column;
     gap: 0;
