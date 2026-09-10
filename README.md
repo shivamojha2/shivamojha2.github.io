@@ -22,3 +22,5 @@ and visit `http://localhost:8000`.
 ## Deploying
 
 Push to a GitHub repo named `<your-username>.github.io` — GitHub Pages serves it automatically from the repo root, no configuration needed.
+
+When you change `css/style.css`, bump the `?v=` number on its `<link>` in `index.html` — mobile browsers cache CSS aggressively, and without a version bump, phones may keep showing the old stylesheet after a deploy.
